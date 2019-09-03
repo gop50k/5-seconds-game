@@ -19,8 +19,17 @@
     color: #fff;
 }
 
+#result.standby {
+    opacity: 0.5;
+}
+
 #start {
     float: left;
+}
+
+#start.pushed, #stop.pushed  {
+    margin-top: 3px;
+    box-shadow: 0 3px 0 #ccc;
 }
 
 #stop {
